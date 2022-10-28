@@ -2,8 +2,8 @@ const express = require("express");
 const route = express.Router();
 const createUserValiation=require("../middleware/userValidation")
 const bookValiation=require("../middleware/bookValidation")
-const userController=require('../contoller/userController')
-const bookController=require('../contoller/bookController')
+const userController=require('../controller/userController')
+const bookController=require('../controller/bookController')
 const auth=require('../middleware/middleware')
 const review=require('../contoller/reviewController')
 
