@@ -1,0 +1,28 @@
+{
+    "name": "project-booksmanagementgroup37",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "nodemon src/index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/wasif-dali/Books_management.git"
+    },
+    "keywords": [],
+    "author": "Wasif Ali",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/wasif-dali/Books_management.git/issues"
+    },
+    "homepage": "https://github.com/wasif-dali/Books_management.git#readme",
+    "dependencies": {
+      "express": "^4.18.1",
+      "jsonwebtoken": "^8.5.1",
+      "moment": "^2.29.4",
+      "mongoose": "^6.6.1",
+      "nodemon": "^2.0.20"
+    }
+  }
